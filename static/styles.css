@@ -1,0 +1,115 @@
+div {
+    /* zborder: 1px solid #FFFF00; */
+    box-sizing: border-box;
+  }
+
+table, td, th {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+nav {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin:0 auto;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px 30px 5px 0px;
+    font-size: 20px;
+    color: white;
+  }
+  
+  li a {
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+  
+.main {
+    height:100vh;
+    min-height: 100vh;
+    padding-top:0px;
+    padding-bottom:60px;
+    background-color: antiquewhite;
+    width:800px;
+    margin:auto;
+    margin-top:0;
+    margin-bottom: 0px;
+    overflow: auto;
+}
+.footer {
+    margin: auto;
+    margin-top: -60px;
+    min-height: 60px;
+    width: 800px;
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .footer div {
+    width: 25%;
+    margin: 0 auto;
+    border: 1px solid red;
+    text-align: center;
+    overflow: visible;
+  }
+  
+  .footer div p {
+    /* make the font in footer small */
+    font-size: .8em;
+  }
+  
+  .footer div p:first-child {
+    /* make the first paragraph in footer bold */
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .hero {
+    background-image: url("heroimage.jpg");
+    margin-top: 10px;
+    /* height: 20%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+  
+  .herotext {
+    padding: 1px;
+    margin: auto; 
+    font-size: 4em;
+    color: white;
+    text-align: center;
+  }
+
+  .form-container div {
+    border: 2px solid #013469;
+    /* with only 2 values, 1st value refers to top and bottom, 2nd refers to left and right */
+    margin:5px auto;
+    padding: 10px 10px;
+  }
+  
+  .form-container div input {
+    /* input boxes are 2ems high */
+    height: 2em;
+  }
+  
